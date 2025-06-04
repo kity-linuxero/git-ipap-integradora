@@ -96,3 +96,17 @@ git commit -m "Renombro el README.md a TRABAJO.md y agrego un nuevo README.md co
 
 git push origin main
 ```
+
+### 2. Se edita el archivo README.md para la rama proyectos
+
+En la rama proyectos, se edita el archivo README.md solo con un apartado sobre poncho, el repositorio clonado. Se realiza el commit y se carga el archivo en dicha rama
+
+```bash
+git checkout proyectos
+
+git add README.md
+
+git commit -m "agrego el README.md con info sobre Poncho, para la rama proyectos"
+
+git push origin proyectos
+```
