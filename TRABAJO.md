@@ -1,7 +1,6 @@
-# Trabajo integrador | IPAP Git
+# Git y herramientas para implementar el control de versiones en aplicaciones para desarrolladores/as
 
-Repositorio para actividad final capacitación IPAP en el curso **Git y herramientas para implementar el control de
-versiones en aplicaciones para desarrolladores/as**
+# ACTIVIDAD INTEGRADORA
 
 ## Integrantes del grupo
 
@@ -11,7 +10,21 @@ Este es un trabajo realizado en grupo por los siguientes integrantes
 - [Cristian Giambruni](https://github.com/kity-linuxero)
 - [Carolina Le Mura](https://github.com/Carolemura1989)
 
-## Pasos realizados
+## Elección de tecnología:
+
+Describir al menos dos de los servicios a libre elección que aparecen como templates en la creación de proyectos en Gitlab. 
+
+Para este trabajo seleccionamos dos plantillas (templates) disponibles al iniciar proyectos en plataformas de control de versiones como GitLab o similares. Ambas resultan útiles para desarrollar aplicaciones web:
+
+- HTML5 Boilerplate
+  Proporciona una estructura básica en HTML5, ideal para comenzar sitios web simples. Incluye buenas prácticas de desarrollo y compatibilidad entre navegadores.
+
+- Node.js Express App
+  Plantilla pensada para iniciar una aplicación backend con Node.js y Express. Es ideal para desarrollar APIs, servidores y lógicas del lado del servidor.
+
+## Adaptación:
+
+Buscar y clonar un proyecto libre del Estado Argentino (fuera del repositorio) y copiar sus archivos dentro de nuestro repositorio en una carpeta con el nombre del proyecto clonado. Esto hacerlo en una rama distinta a la rama principal llamada proyectos. 
 
 ### 1. Se creó el repositorio en Github.
 
@@ -41,7 +54,17 @@ git commit -m "Agregado archivos básicos"
 git branch proyecto
 ```
 
-### 6. Se copian los archivos de poncho
+### 6. Proyecto usado del estado nacional Poncho
+
+ https://github.com/argob/poncho.git
+
+```bash
+ git clone  https://github.com/argob/poncho.git
+
+ mv poncho git-ipap-integradora
+```
+
+### 7. Se copian los archivos de poncho
 
 Se clona el repositorio de Poncho y se copian los archivos al repositorio, luego se agregan para el commit en el branch `proyecto`.
 
@@ -51,15 +74,15 @@ git add poncho
 git commit -m "Se agrega Poncho al proyecto"
 ```
 
-# Proyecto usado del estado nacional Poncho
+## Anotación:
 
- https://github.com/argob/poncho.git
+Escribir un README.md en el directorio raíz de nuestro repositorio explicando de 
+qué se trata el curso. Esto debe hacerse en la rama principal. 
 
- git clone  https://github.com/argob/poncho.git
+- Agregar un apartado al README.md donde explique de qué se trata el repositorio clonado del Estado Argentino. Esto debe hacerse en la rama proyectos. 
+- Agregar un apartado al README.md con links y descripciones de al menos 2 herramientas web para aprender ramas en Git. En la rama principal.
 
- mv poncho git-ipap-integradora
-
-### 7. Se copian los archivos de poncho
+### 1. Se edita el archivo README.md para la rama main y el archivo TRABAJO.md
 
 Se edita el archivo README.md para la rama Main, con una explicación de qué se trata el curso, Se agrega un apartado al README.md con links y descripciones de las herramientas "Learn Git Branching" y "Oh My Git!".
 Tambien se agrega el archivo TRABAJO.md donde ir cargando el paso a paso de lo que vamos haciendo.
