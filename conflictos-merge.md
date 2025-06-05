@@ -24,10 +24,6 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 Mediante `Visual Studio` se pueden resolver los conflictos, además que muestras las diferencias de manera simple y gráfica.
 
-![](./img/confl1.png)
-
-En nuestro caso, la mejor opción era **Accept Current Change**.
-
 ### Opcional Merge Editor
 
 Usando el `merge editor` de Visual Studio Code, se pueden ver los cambios realizados en cada branch y seleccionar cuál se quiere conservar.
