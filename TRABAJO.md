@@ -10,25 +10,27 @@ Este es un trabajo realizado en grupo por los siguientes integrantes
 - [Cristian Giambruni](https://github.com/kity-linuxero)
 - [Carolina Le Mura](https://github.com/Carolemura1989)
 
+## Link al repositorio en Github
+
+[https://github.com/kity-linuxero/git-ipap-integradora](https://github.com/kity-linuxero/git-ipap-integradora)
+
 ## Elección de tecnología:
 
 Describir al menos dos de los servicios a libre elección que aparecen como templates en la creación de proyectos en Gitlab. 
 
 Para este trabajo seleccionamos dos plantillas (templates) disponibles al iniciar proyectos en plataformas de control de versiones como GitLab o similares. Ambas resultan útiles para desarrollar aplicaciones web:
 
-- HTML5 Boilerplate Proporciona una estructura básica en HTML5, ideal para comenzar sitios web simples. Incluye buenas prácticas de desarrollo y compatibilidad entre navegadores.
+- HTML5 Boilerplate
+  Proporciona una estructura básica en HTML5, ideal para comenzar sitios web simples. Incluye buenas prácticas de desarrollo y compatibilidad entre navegadores.
 
-- Node.js Express App Plantilla pensada para iniciar una aplicación backend con Node.js y Express. Es ideal para desarrollar APIs, servidores y lógicas del lado del servidor.
-
+- Node.js Express App
+  Plantilla pensada para iniciar una aplicación backend con Node.js y Express. Es ideal para desarrollar APIs, servidores y lógicas del lado del servidor.
 
 ## Adaptación:
 
 Buscar y clonar un proyecto libre del Estado Argentino (fuera del repositorio) y copiar sus archivos dentro de nuestro repositorio en una carpeta con el nombre del proyecto clonado. Esto hacerlo en una rama distinta a la rama principal llamada proyectos. 
 
-## Pasos realizados
-
 ### 1. Se creó el repositorio en Github.
-Se agregaron los _contribuitors_ mediante invitaciones.
 
 ### 2. Se clonó el repositorio localmente
 
@@ -111,4 +113,36 @@ git add README.md
 git commit -m "agrego el README.md con info sobre Poncho, para la rama proyectos"
 
 git push origin proyectos
+```
+
+## Integración:
+
+Combinar (mergear) la rama proyectos con la principal y mencionar si hubo conflictos, en que archivos y cómo lossoluciono. Ponertoda la información sobrelos conflictos en un archivo llamado conflictos-merge.md.
+
+```bash
+git switch main
+git merge proyectos
+
+# Acá avisa del conflicto
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Auto-merging TRABAJO.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+# Se resuelve con VSCode usando el Merge editor y viendo que el archivo quede como se desea
+
+git add README.md
+git commit -m "Merge proyectos con main"
+```
+
+## Traspaso de conocimiento:
+
+Buscar y agregar a nuestro repositorio una hoja de datos (cheatsheet) de Git sea imagen, pdf, o cualquier tipo de archivo en cualquier idioma (español referentemente).
+
+```bash
+git add gitBasicsCheatSheetSpanish.pdf
+
+git commit -m "agregamos el cheatsheet"
+
+git push origin main
 ```
