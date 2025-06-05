@@ -16,17 +16,18 @@ Describir al menos dos de los servicios a libre elección que aparecen como temp
 
 Para este trabajo seleccionamos dos plantillas (templates) disponibles al iniciar proyectos en plataformas de control de versiones como GitLab o similares. Ambas resultan útiles para desarrollar aplicaciones web:
 
-- HTML5 Boilerplate
-  Proporciona una estructura básica en HTML5, ideal para comenzar sitios web simples. Incluye buenas prácticas de desarrollo y compatibilidad entre navegadores.
+### `plain-html`
 
-- Node.js Express App
-  Plantilla pensada para iniciar una aplicación backend con Node.js y Express. Es ideal para desarrollar APIs, servidores y lógicas del lado del servidor.
+Con simplemente un ejemplo para arrancar un `index.html` para luego hacer un front con estilos, elementos y fuentes que provee [Poncho](https://github.com/argob/poncho).
 
 ## Adaptación:
 
 Buscar y clonar un proyecto libre del Estado Argentino (fuera del repositorio) y copiar sus archivos dentro de nuestro repositorio en una carpeta con el nombre del proyecto clonado. Esto hacerlo en una rama distinta a la rama principal llamada proyectos. 
 
+## Pasos realizados
+
 ### 1. Se creó el repositorio en Github.
+Se agregaron los _contribuitors_ mediante invitaciones.
 
 ### 2. Se clonó el repositorio localmente
 
