@@ -6,6 +6,4 @@
 src/_site
 node_modules
 package.json
-dist/.DS_Store
-dist/
-/dist/
+# dist/.DS_Store
