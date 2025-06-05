@@ -44,54 +44,46 @@ Este curso forma parte del Programa de Formación General del IPAP. Tiene como o
 
 ---
 
-## 🛠 Ejemplo de uso
+## 2. [Oh My Git!](https://ohmygit.org/)
 
-El sistema plantea:
+Juego educativo que enseña Git a través de desafíos y niveles. Se puede descargar y jugar offline. Muy útil para aprender de forma lúdica y práctica.
 
-> "Crea una nueva rama llamada `feature` y cámbiate a ella."
-
-Tú escribes:
-```bash
-git branch feature
-git checkout feature
-
-
-3. [Oh My Git!](https://ohmygit.org/)  
-   Juego educativo que enseña Git a través de desafíos y niveles. Se puede descargar y jugar offline. Muy útil para aprender de forma lúdica y práctica.
----
-
-## 🎯 Propósitos principales
+### 🎯 Propósitos principales
 
 ### ✅ 1. Aprender Git como si fuera un juego
+
 - Interfaz gráfica animada que muestra cómo se crean y conectan commits y ramas.
-- Usas comandos reales mientras juegas.
+- Usás comandos reales mientras jugás.
 
 ### ✅ 2. Comprender visualmente cómo funciona Git
-- Cada acción que haces con Git se refleja en tiempo real en el gráfico del repositorio.
+
+- Cada acción que hacés con Git se refleja en tiempo real en el gráfico del repositorio.
 - Ideal para entender lo que normalmente pasa “por detrás” en la terminal.
 
 ### ✅ 3. Practicar comandos Git reales
-- Mientras jugas, podes usar comandos con práctica real y no solo teoría.:
+
+- Mientras jugás, podés usar comandos con práctica real:
   - `git commit`
   - `git branch`
   - `git checkout`
   - `git reset`
   - `git revert`
 
-
 ### ✅ 4. Progresar por niveles
+
 - El juego está organizado en niveles que van desde lo más básico hasta comandos más avanzados.
 
----
+### 👩‍🎓 ¿Para quién es útil?
 
-## 🚀 ¿Cómo se usa?
+- Personas visuales o que aprenden mejor con juegos.
+- Estudiantes que quieren practicar fuera de la terminal tradicional.
+- Docentes que desean enseñar Git de forma más amigable.
+- Usuarios con dificultades para entender Git desde la línea de comandos solamente.
 
-1. Se juega directamente desde la web o  se puede instalar en la pc:
+### 🚀 ¿Cómo se usa?
+
+1. Se juega directamente desde la web o se puede instalar en la PC:
    - Sitio oficial: [https://ohmygit.org/](https://ohmygit.org/)
 2. Al abrir el juego:
    - La **izquierda** muestra el gráfico del repositorio.
    - La **derecha** es una consola para escribir comandos Git reales.
-
----
-
-
